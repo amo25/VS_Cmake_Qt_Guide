@@ -1,0 +1,18 @@
+A step by step guide to using QT, Visual Studio, and CMake
+
+TO BUILD A QT PROJECT
+1. Clone the project from github
+2. Create a build folder
+3. Go to the QT GUI
+4. Add the source directory to the source directory spot, and your build directory to the build directory spot
+5. Click "Configure"
+6. Click "Generate"
+7. Click "Open Project". Visual Studio should open
+8. Right click your executable -> "Set as startup project" 
+    a. This can be found under "Solution Explorer", by default on RHS
+9. Click the green arrow "Debug"
+
+INSTALL
+1. Install the latest Cmake
+2. Install the latest Visual Studio
+3. Install QT, selecting your version of Visual Studio during installation
